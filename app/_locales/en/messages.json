@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "link github stars",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "show stars count for each links",
+    "description": "The description of the application"
+  }
+}
