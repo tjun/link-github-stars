@@ -19,7 +19,7 @@ $.each($('a'), function() {
 
     var apiURL = 'https://api.github.com/repos/' + user + '/' + repo;
     $.getJSON(apiURL, function(data) {
-        link.after($("<span>", {
+        link.after($('<span>', {
             'class': 'link-github-stars',
             text: '★' + data.stargazers_count,
         })[0]);
