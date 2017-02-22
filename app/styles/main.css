@@ -1,3 +1,15 @@
 body {
-  padding: 20px;
+    padding: 20px;
+}
+
+span.link-github-stars {
+    background-color: #fafafa;
+    /*border-bottom: 1px solid #d4d4d4;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #333;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    margin-left: 6px;
 }
