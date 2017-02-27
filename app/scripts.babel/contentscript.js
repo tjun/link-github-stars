@@ -35,21 +35,12 @@
                         var data = this.response;
 
                         var span = document.createElement('span');
-
-                        span.style.fontFamily = '"Helvetica Neue", Helvetica, Arial, sans-serif';
-                        span.style.fontWeight = 'bold';
-                        span.style.fontSize = '13px';
-                        span.style.color = '#555';
-                        span.style.textDecoration = 'none';
-                        span.style.textShadow = '0 1px 0 #fff';
-                        span.style.marginLeft = '6px';
+                        span.className = 'ex-link-github-stars';
                         span.textContent = '★' + data.stargazers_count;
 
-                        //var spanstr = '<span class="link-github-stars">★' + data.stargazers_count + '</span>';
                         var tmp = document.createElement('div');
                         tmp.appendChild(span);
                         var spanstr = tmp.innerHTML;
-                        console.log(span);
 
                         el.insertAdjacentHTML('afterend', spanstr);
                     }
